@@ -1,0 +1,21 @@
+# 构建产物
+build/
+build-*/
+cmake-build-*/
+
+# 编译 / 链接中间产物
+*.o
+*.a
+*.so
+*.exe
+*.obj
+*.ilk
+*.pdb
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+
+# core dump
+core
